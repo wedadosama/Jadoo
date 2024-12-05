@@ -111,3 +111,95 @@ header nav ul li select {
   border: none;
   outline: none;
 }
+.hero {
+  height: calc(100vh - 134px);
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .hero .info {
+    width: 50%;
+  }
+}
+.info .main-description {
+  
+  font-family:"Poppins", serif ;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--jelly-bean);
+  padding-top: 60px;
+  
+
+}
+.hero .info .enjoy {
+  position: relative;
+}
+.hero .info .enjoy::aftetyr {
+  content: "";
+  position: absolute;
+  left: -30px;
+  bottom: 0px;
+  width: calc(100% + 100px);
+  height: 10px;
+  background-image: url(../images/Decore.png);
+  z-index: -1;
+}
+h1{
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 89px;
+  letter-spacing: -4px;
+  color: var(--space-cadet)
+}
+.info .hero-paragraph{
+  font-family:"Poppins", serif  ;
+  font-size:16px ;
+  font-family: 500;
+  line-height: 30px;
+  color:var(--dark-electric-blue);
+}
+
+.hero-link{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px 10px;
+  
+   
+   
+
+}
+.hero-link .pla-demo{
+ font-family:"Poppins", serif ;
+ font-weight: 500;
+ font-size: 17px;
+ line-height: 25.5px;
+}
+.hero .hero-link .find-out,
+.hero .hero-link .pla-demo { 
+  
+   padding: 15px ;
+  font-size: 16px;
+   background-color:var(--orange-web);
+   color: var(--white); 
+  border-radius: 10px; 
+  text-align: center;
+  font-family:"Google Sans" ;
+}
+
+
+.hero .image .blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  .hero .image {
+    display: none;
+  }
+}
