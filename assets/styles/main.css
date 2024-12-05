@@ -137,7 +137,7 @@ header nav ul li select {
 .hero .info .enjoy {
   position: relative;
 }
-.hero .info .enjoy::aftetyr {
+.hero .info .enjoy::after {
   content: "";
   position: absolute;
   left: -30px;
@@ -202,4 +202,103 @@ h1{
   .hero .image {
     display: none;
   }
+}
+.services{
+  margin-top: 150px;
+
+}
+.services-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  
+  
+}
+
+.services .container .services-main .services-text .CATEGORY{
+  text-transform: uppercase;
+  font-family: "Poppins", serif;
+  line-height: 27px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 200px;
+  color:var(--dark-electric-blue);
+}
+.services .container .services-main .services-text .services-head{
+  font-family:"Volkhov" ;
+  font-size: 50px;
+  font-family: 700px;
+  line-height: 64.5px;
+  color:var(--black);
+  margin-bottom: 30px;
+}
+
+.services-section {
+  padding: 50px;
+  text-align: center;
+  background-color: var(--white);
+  font-family: 'Arial', sans-serif;
+}
+
+.services-header .category {
+  color:var(--manatee);
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+} 
+
+.services-header .services-title {
+  font-size: 32px;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.service-card {
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  
+}
+
+.service-card.active {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+
+.service-title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color:var(--space-cadet);
+  margin-bottom: 10px;
+}
+
+
+.service-description {
+  font-family:"Poppins", serif ;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--dark-electric-blue);
+  line-height: 26px;
 }
