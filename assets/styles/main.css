@@ -226,13 +226,15 @@ h1{
   padding-left: 200px;
   color:var(--dark-electric-blue);
 }
-.services .container .services-main .services-text .services-head{
+.services .container .services-main .services-text .services-head,
+.destinations-head{
   font-family:"Volkhov" ;
   font-size: 50px;
   font-family: 700px;
   line-height: 64.5px;
   color:var(--black);
-  margin-bottom: 30px;
+  padding-top: 70px;
+  margin-bottom: 100px;
 }
 
 .services-section {
@@ -302,3 +304,81 @@ h1{
   color: var(--dark-electric-blue);
   line-height: 26px;
 }
+.destinations{
+  margin-top: 200px;
+}
+.destinations .container .destinations-text .paragraph-destinations{
+  font-family:"Poppins", serif ;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  color: var(--dark-electric-blue);
+
+}
+.destinations .container .destinations-text .destinations-head{
+  font-family: "Volkhov";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64.5px;
+  align-items: center;
+  color: var(--space-cadet);
+  
+}
+
+
+
+    .top-destinations {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+  
+
+    .destinations {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .destination-card {
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width:auto;
+      text-align: left;
+      
+    }
+
+    .destination-card img {
+      width:400px ;
+      height:400px; 
+  
+    }
+
+    .destination-card .info {
+      padding: 20px;
+    }
+
+    .destination-card .info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2em;
+      color: var(--black);
+    }
+
+    .destination-card .info p {
+      margin: 0;
+      color:var(--roman-silver);
+    }
+
+    .destination-card .info .price {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .destination-card .info .days {
+      color : var(--roman-silver);
+      font-size: 0.9em;
+    }
+  
